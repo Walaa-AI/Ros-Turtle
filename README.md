@@ -8,10 +8,14 @@ First -> Download VB and install ubonto V 20.04.6 , then install ROS by followin
 
 Open the terminal (CTRL+ALT+T)
 roscore
+
+
 ![image](https://github.com/Walaa-AI/Ros-Turtle/assets/107875617/fe9afff6-d7be-4e98-9587-6c645410f6af)
 
 
 #Part I
+
+
 Turtlesim Node
 We will start the turtlesim node and explore its properties. Execute roscore and in a new terminal create the turtlesim node from the package turtlesim:
 
@@ -38,6 +42,8 @@ We will start the turtlesim node and explore its properties. Execute roscore and
 
 
 • $ rosnode list
+
+
 ![image](https://github.com/Walaa-AI/Ros-Turtle/assets/107875617/03a6aea0-5a1d-4f46-97d1-9ff550017cc7)
 
 display the graph of nodes and topics using rosrun rqt_graph rqt_graph
